@@ -19,6 +19,9 @@ img{
         width: 100%;
         
     }
+    .img-forme{
+        height: 15em;
+    }
 .margin-top{
     display: flex;
     align-items: baseline;
@@ -44,3 +47,46 @@ img{
     }
      
 }
+.bloc-footer{
+    margin-top: 50px;
+background: #2c2c2c;
+  
+    
+}
+  .logo-footer{
+    width: 100px;
+    margin: 5px;
+    color: azure;
+    height: 25px;
+    font-size: 2em;
+
+    }
+.icon-footer{
+    display: flex;
+    align-items: baseline;
+    color: azure;
+    }
+    .text-footer{
+        color: azure;
+    }
+    .button2{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        .bouton2{
+            height: 40px;
+            width: 70%;
+            border-radius: 25px;
+            /*transition-property: transform;
+            transition-duration: 400ms;*/
+            transition: transform 400ms;
+            background-image: linear-gradient(180deg, rgb(255, 0, 221), rgb(132, 0, 255));
+            
+            cursor: pointer;
+    
+            &:hover {
+                transform: scale(1.15);
+        }
+        }
+    }
