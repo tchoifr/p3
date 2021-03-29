@@ -3,6 +3,11 @@
   flex-direction: column;
   align-items: center;
 }
+.container-img .retour-logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .container-img .logo {
   width: 50%;
 }
@@ -12,12 +17,31 @@
   justify-content: flex-end;
 }
 
+.retour-header {
+  display: flex;
+  align-items: center;
+}
+
+.color-purple {
+  cursor: pointer;
+  color: black;
+  cursor: pointer;
+}
+.color-purple:hover {
+  color: #8400ff;
+}
+
+.logo-header {
+  width: 50%;
+  margin-right: 60px;
+}
+
 img {
   width: 100%;
 }
 
 .img-forme {
-  height: 15em;
+  max-height: 235px;
 }
 
 .margin-top {
@@ -44,6 +68,70 @@ img {
 }
 .titre-gras:hover {
   border-bottom: solid aqua;
+}
+.titre-gras .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.titre-gras .bloc-responsive {
+  width: 98%;
+  margin: 10px;
+}
+.titre-gras .responsive-taille {
+  width: 90%;
+  margin: 0.5em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  height: 70px;
+  background: #00b7ff;
+}
+.titre-gras .taille-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  height: 70px;
+  border: 1px solid #bdbdbd;
+  box-shadow: 1px 1px 1px;
+  background: white;
+  cursor: pointer;
+}
+.titre-gras .taille-button:hover {
+  width: 85%;
+}
+.titre-gras .taille-button .text-gras {
+  margin: 5px;
+  font-size: 1.1em;
+  width: 100%;
+}
+.titre-gras .taille-button .text {
+  margin: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.titre-gras .taille-button .text:hover {
+  font-size: 13px;
+}
+.titre-gras .bloc-euro {
+  width: 4em;
+  display: flex;
+  justify-content: center;
+}
+.titre-gras .euro {
+  margin-right: 1em;
+}
+.titre-gras .button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 .bloc-footer {
@@ -160,4 +248,4 @@ img {
   width: 100%;
 }
 
-/*# sourceMappingURL=style2.css.map */
+/*# sourceMappingURL=style.css.map */

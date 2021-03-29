@@ -121,14 +121,13 @@ p {
 .container2 .fonctionnement .icon {
   color: gray;
   margin-left: 20px;
-  margin-top: 10px;
   cursor: pointer;
 }
 .container2 .fonctionnement .icon:hover {
   color: #7700ff;
 }
 .container2 .fonctionnement .text-fonctionnement {
-  margin-left: 60px;
+  margin-left: 40px;
   margin-top: 15px;
 }
 
@@ -178,21 +177,39 @@ p {
   color: azure;
 }
 
-@media screen and (min-width: 430px) and (max-width: 1024px) {
-  .container-section {
-    width: 100%;
+@media screen and (min-width: 770px) and (max-width: 2560px) {
+  .container-destok {
     display: flex;
-    /* align-items: flex-end; */
-    justify-content: center;
-    flex-wrap: wrap;
   }
-
-  .container1 .container2 {
-    width: 60%;
+  .container-destok .container1 {
+    width: 100%;
+  }
+  .container-destok .container-destok2 {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .container-destok .container-destok2 .container2 {
+    width: 100%;
   }
 
   .container3 {
-    width: 70%;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .localisation {
+    border-radius: 20px;
+  }
+
+  .titre-bloc {
+    background: #cac9c9;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
   }
 }
 
