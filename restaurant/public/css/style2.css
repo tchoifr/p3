@@ -70,7 +70,7 @@ img {
 }
 .margin-top .icon-container .icon-coeur:hover {
   font-size: 1.5em;
-  transition: 500ms;
+  transition: 1000ms;
   font-weight: 900;
   color: #9356DC;
   text-shadow: 1px 3px 4px #9356DC;
@@ -278,19 +278,17 @@ img {
   }
 }
 .bloc {
-  animation: bloc 2000ms 1500ms;
+  animation: bloc 1s forwards;
 }
 
 @keyframes bloc {
   0% {
     opacity: 0;
-    transform: rotateX(-100deg);
-    transform-origin: bottom;
+    transform: translateY(100px);
   }
   100% {
     opacity: 1;
-    transform: rotateX(0deg);
-    transform-origin: bottom;
+    transform: translateY(0px);
   }
 }
 /*

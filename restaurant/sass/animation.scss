@@ -1,20 +1,18 @@
 
-$prog-bloc-dur: 500ms;
-$prog-bloc-delay: 1000ms;
-$bloc-delay: $prog-bloc-dur + $prog-bloc-delay;
 .bloc {
-    animation: bloc 2000ms $bloc-delay;
+    animation: bloc 1s forwards;
 }
 @keyframes bloc{
 0% {
      opacity: 0;
-      transform: rotateX(-100deg);
-      transform-origin: bottom;
+     transform: translateY(100px);
+      
 }
 100% {
    opacity: 1;
-      transform: rotateX(0deg);
-      transform-origin: bottom;
+    
+    transform: translateY(0px);
+    
     }
 }
 /*
