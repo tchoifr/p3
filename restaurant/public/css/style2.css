@@ -28,8 +28,11 @@ h3 {
 
 .color-purple {
   color: black;
+  text-shadow: 1px 3px 4px #505050;
+  font-size: 1em;
 }
 .color-purple:hover {
+  font-size: 1.5em;
   color: #9356DC;
 }
 
@@ -62,10 +65,15 @@ img {
   margin: 1px;
   font-size: 1.5em;
 }
+.margin-top .icon-container .icon-coeur {
+  font-size: 1.3em;
+}
 .margin-top .icon-container .icon-coeur:hover {
+  font-size: 1.5em;
   transition: 500ms;
   font-weight: 900;
   color: #9356DC;
+  text-shadow: 1px 3px 4px #9356DC;
 }
 
 .titre {
@@ -270,16 +278,35 @@ img {
   }
 }
 .bloc {
-  animation: bloc 1000ms 1500ms;
+  animation: bloc 2000ms 1500ms;
 }
 
 @keyframes bloc {
   0% {
-    transform: translateX(-9999px);
+    opacity: 0;
+    transform: rotateX(-100deg);
+    transform-origin: bottom;
   }
   100% {
-    transform: translateX(0);
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-origin: bottom;
   }
 }
+/*
+$animation: bloc 2s cubic-bezier(0.64, 0, 0.78, 0) 0ms 1 alternate both;
+@keyframes bloc {
+    0% {
+      opacity: 0;
+      transform: rotateX(-100deg);
+      transform-origin: top;
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotateX(0deg);
+      transform-origin: top;
+    }
+  }*/
 
 /*# sourceMappingURL=style2.css.map */

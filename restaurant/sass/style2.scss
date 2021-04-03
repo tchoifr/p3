@@ -31,7 +31,10 @@ h3{
 }
 .color-purple{
     color: rgb(0, 0, 0);
+    text-shadow: 1px 3px 4px #505050;
+    font-size: 1em;
     &:hover {
+        font-size: 1.5em;
             color: #9356DC;
     }
     }
@@ -68,11 +71,13 @@ img{
     .icon-container{
         
         .icon-coeur{
-            
+            font-size: 1.3em;
             &:hover{
+                font-size: 1.5em;
                 transition: 500ms;
                font-weight: 900;
                color: #9356DC ;
+               text-shadow: 1px 3px 4px #9356DC;
             }
         }
     }
