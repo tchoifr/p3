@@ -297,7 +297,7 @@ img {
     transform: translateY(0px);
   }
 }
-bloc:nth-child(1) {
+.bloc:nth-child(1) {
   animation-delay: 0s;
 }
 
