@@ -16,7 +16,7 @@
     flex-direction: column;
 .bloc {
     
-    width: 95%;
+    width: 90%;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -27,10 +27,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
-    &:hover{
-     
-      transition: 600ms;
-    } 
+
   }
     .bloc .icon {
         position: relative;
@@ -40,28 +37,37 @@
         justify-content: center;
         align-items: center;
         font-size: 1.5em;
-        width: 30%;
-        margin-right: -30%;
+        width: 0%;
+        
         
         &:hover{
-         display: block;
-         margin-right: -5px;
-
-
-        }
-         }
-      .bloc .icon span {
-        display: initial;
-       color: white;
-        transition: transform 10000ms ease-in-out;
-        &:hover{
-          display: block;
-          opacity: 1;
           
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 26%;
+        }
+      }
+      
+      .bloc .icon span {
+       color: white;
+       transform: rotate(0deg);
+        transition: transform 1000ms ease-in-out;
+        &:hover{
+          transform: rotate(360deg) ;          
         }
       
       }
         
+      .bloc:hover .fa-check-circle{
+        transform: rotate(360deg);
+        transition: 1s;
+      }
+      .bloc:hover .icon{
+        width: 26%;
+      }
+
+
     .bloc .texte {
       width: 100%;
       justify-content: space-between;

@@ -1,7 +1,8 @@
 h3{
     margin: 0;
-   font-size: 1.2em;
+   font-size: 1em;
    text-overflow: ellipsis;
+   font-family: 'shrikhandregular', sans-serif;
 }
 a{
     text-decoration: none;
@@ -78,12 +79,14 @@ img{
     .text-haut{
     margin: 1px;
     font-size: 1.5em;
+    font-family: 'shrikhandregular', sans-serif;
     }
     
     .icon-container{
         
         .icon-coeur{
             font-size: 1.3em;
+            text-shadow: 0px 3px 4px #000000;
             &:hover{
                 font-size: 1.5em;
                 transition: 1000ms;

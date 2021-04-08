@@ -1,6 +1,6 @@
 @media screen and (min-width: 770px) and (max-width:2560px){
    h3{
-       font-size: 1.5em;
+       font-size: 1.1em;
    }
     .header{
     display: flex;
@@ -16,12 +16,17 @@
     width: 100%;
  .margin-top{
     width: 50%;
+    margin-top: 0;
+    .text-haut{
+        font-size: 1.5em;
+    }
  }
 }
  .container-media{
      display: flex;
      margin-top: 20px;
      flex-direction: row;
+     background: rgb(240, 240, 240);
  }
 
     .bloc-footer{
@@ -43,5 +48,11 @@
          width: 40%;
      }
  }
+
+
+ .titre{
+     font-size: 1em;
+ }
+
  }
 
