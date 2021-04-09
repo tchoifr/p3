@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     .header-img{
-        width: 35%;
+        width: 50%;
     }
 }
 
@@ -27,6 +27,9 @@
     align-items: baseline;
     width: 100%;
     justify-content: center;
+    }
+    .localisation-p{
+        font-size: 0.9em;
     }
     .text-gras{
     font-size: 1.5em;
@@ -88,10 +91,10 @@ width: 100%;
         justify-content: center;
         margin-left: -4px;
         border: 1px solid #9356DC;
-        width: 15px;
+        width: 18px;
         font-size: 1.1em;
         border-radius: 15px;
-        height: 17px;
+        height: 22px;
         }
         
         .text-fonctionnement{
@@ -184,7 +187,9 @@ align-items: center;
     .titre-footer{
         color: #ffffff;
         font-size: 2em;
-        font-family: 'shrikhandregular', sans-serif;
+        font-family: 'Shrikhand';
+    font-style: normal;
+    font-weight: 400;
     }
     
     

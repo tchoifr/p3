@@ -1,10 +1,16 @@
- @import "./style2.scss";
- @import "./bloc2.scss";
- @import"./media2.scss";
- @import"./animation.scss";
- @import"./police2.scss";
- 
- @font-face {
+@font-face {
+    font-family: 'Shrikhand';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/shrikhand/v6/a8IbNovtLWfR7T7bMJwrGIKR4zg.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+  }
+  .police-Shrikhand{
+    font-family: 'Shrikhand';
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
     font-family: 'Shrikhand';
     font-style: normal;
     font-weight: 400;
