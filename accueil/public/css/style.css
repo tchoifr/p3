@@ -74,6 +74,13 @@ p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+h2 {
+  font-size: 0.9em;
+  font-family: "Shrikhand";
+  font-style: normal;
+  font-weight: 400;
+}
+
 .titre-bloc {
   font-size: 1.5em;
   font-family: "Shrikhand";
@@ -160,11 +167,11 @@ a {
 }
 .container2 .fonctionnement .icon {
   font-size: 1.5em;
-  text-shadow: 0px 3px 4px #535353;
+  color: #848383;
 }
 .container2 .fonctionnement .icon:hover {
-  transition: 1000ms;
-  text-shadow: 0px 3px 4px #9356DC;
+  transition: 2000ms;
+  color: #9356DC;
 }
 .container2 .fonctionnement .chiffre {
   display: flex;
