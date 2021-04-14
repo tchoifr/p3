@@ -119,19 +119,23 @@ margin-bottom: 70px;
         position: relative;
         height: 35px;
         width: 90%;
-    .titre-text{
-    height: 30px;
-    width: 88px;
-    font-size: 1.1em;
-    font-weight: 900;
-    margin: 11px;
-    }
+    
     }
     .image-bloc{
         width: 90%;
     margin-bottom: 20px;
     margin-left: 20px;
-        
+    position: relative;
+        .titre-text{
+    font-size: 1.1em;
+    font-weight: 900;
+    margin: 11px;
+    width: 72px;
+    height: 27px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    }
     }
     
     .image{

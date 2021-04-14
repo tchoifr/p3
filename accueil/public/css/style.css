@@ -224,17 +224,21 @@ body {
   height: 35px;
   width: 90%;
 }
-.container3 .titre .titre-text {
-  height: 30px;
-  width: 88px;
-  font-size: 1.1em;
-  font-weight: 900;
-  margin: 11px;
-}
 .container3 .image-bloc {
   width: 90%;
   margin-bottom: 20px;
   margin-left: 20px;
+  position: relative;
+}
+.container3 .image-bloc .titre-text {
+  font-size: 1.1em;
+  font-weight: 900;
+  margin: 11px;
+  width: 72px;
+  height: 27px;
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 .container3 .image {
   width: 100%;
