@@ -141,7 +141,7 @@ body {
   box-shadow: inset 0px 7px 4px -8px;
 }
 .container1__localisation-p {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 10px;
 }
 .container1 .text-gras {
@@ -159,7 +159,7 @@ body {
 }
 .container1 .button .bouton {
   height: 50px;
-  width: 56%;
+  width: 185px;
   border-radius: 25px;
   box-shadow: 2px 2px 10px #848383;
   transition: transform 400ms;
