@@ -30,6 +30,7 @@
 
   }
     .bloc .icon {
+      transition: width 0.5s;
         position: relative;
         background-color: #99E2D0;
         order: 2;
@@ -41,22 +42,14 @@
         overflow: hidden;
         
         
-        &:hover{
-          
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         width: 26%;
-        }
+       
       }
       
       .bloc .icon span {
        color: white;
        transform: rotate(0deg);
         transition: transform 1000ms ease-in-out;
-        &:hover{
-          transform: rotate(360deg) ;          
-        }
+        
       
       }
         
@@ -65,7 +58,7 @@
         transition: 1s;
       }
       .bloc:hover .icon{
-        width: 30%;
+        width: 35%;
       }
 
 
@@ -80,12 +73,7 @@
       transition: width 500ms;
       white-space: normal; 
       overflow: hidden;
-        &:hover{
-        width: 70%;
         
-        
-      
-      }
 
         
      }

@@ -5,6 +5,10 @@ h3 {
   font-size: 0.9em;
 }
 
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -52,11 +56,9 @@ p {
 
 .color-header {
   color: black;
-  text-shadow: 1px 3px 4px #505050;
   font-size: 1em;
 }
 .color-header:hover {
-  font-size: 1.5em;
   color: #9356DC;
 }
 
@@ -93,22 +95,30 @@ img {
   font-style: normal;
   font-weight: 400;
 }
-.margin-top .icon-container .icon-coeur {
+.margin-top .icon-container {
   font-size: 1.3em;
-  text-shadow: 0px 3px 4px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.margin-top .icon-container .icon-coeur {
+  transform: scale(1);
 }
 .margin-top .icon-container .icon-coeur:hover {
-  font-size: 1.5em;
-  transition: 1000ms;
-  font-weight: 900;
-  color: #9356DC;
-  text-shadow: 1px 3px 4px #9356DC;
+  transition: transform 0.5s ease-in-out;
+  transform: scale(0);
+}
+.margin-top .icon-container .icon-coeur-plein {
+  position: absolute;
+  transform: scale(0);
+}
+.margin-top .icon-container .icon-coeur-plein:hover {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1);
 }
 
 .titre {
-  width: 100%;
-  font-style: normal;
-  font-weight: 400;
+  width: 90%;
 }
 .titre .titre-gras {
   width: 50px;
@@ -117,7 +127,7 @@ img {
   display: flex;
   justify-content: flex-start;
   border-bottom: solid #99E2D0;
-  font-family: "Shrikhand";
+  font-family: "Roboto", sans-serif;
 }
 
 .bloc-bottom2 {
@@ -153,7 +163,7 @@ img {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin-left: 10px;
+  margin-left: 22px;
 }
 .bloc-footer .footer-media .section-text-footer {
   display: flex;
@@ -164,8 +174,9 @@ img {
   align-items: center;
 }
 .bloc-footer .footer-media .section-text-footer .bloc-icon-footer .icon-footer {
-  margin: 10px;
+  margin: 7px;
   color: #ffffff;
+  font-size: 0.8em;
 }
 .bloc-footer .footer-media .section-text-footer .bloc-text-footer {
   display: flex;
@@ -173,15 +184,16 @@ img {
 }
 .bloc-footer .footer-media .section-text-footer .bloc-text-footer .text-footer {
   color: #ffffff;
-  margin: 9px;
+  margin: 4px;
 }
 .bloc-footer .footer-media .bloc-text-footer .text-footer {
   color: #ffffff;
+  margin: 5px;
 }
 .bloc-footer .footer-media .bloc-text-footer .titre-footer {
   margin: 10px;
   color: #ffffff;
-  font-size: 1.8em;
+  font-size: 1.1em;
 }
 
 .flex {
@@ -215,6 +227,7 @@ img {
   white-space: normal;
 }
 .container-media .bloc .icon {
+  transition: width 0.5s;
   position: relative;
   background-color: #99E2D0;
   order: 2;
@@ -225,26 +238,17 @@ img {
   width: 0%;
   overflow: hidden;
 }
-.container-media .bloc .icon:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 26%;
-}
 .container-media .bloc .icon span {
   color: white;
   transform: rotate(0deg);
   transition: transform 1000ms ease-in-out;
-}
-.container-media .bloc .icon span:hover {
-  transform: rotate(360deg);
 }
 .container-media .bloc:hover .fa-check-circle {
   transform: rotate(360deg);
   transition: 1s;
 }
 .container-media .bloc:hover .icon {
-  width: 30%;
+  width: 35%;
 }
 .container-media .bloc .texte {
   width: 100%;
@@ -257,9 +261,6 @@ img {
   transition: width 500ms;
   white-space: normal;
   overflow: hidden;
-}
-.container-media .bloc .texte:hover {
-  width: 70%;
 }
 .container-media .bloc .texte .prix {
   width: 30px;
@@ -384,6 +385,22 @@ img {
   animation-delay: 0.9s;
 }
 
+@keyframes icon-coeur {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes icon-coeur-plein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*
 $animation: bloc 2s cubic-bezier(0.64, 0, 0.78, 0) 0ms 1 alternate both;
 @keyframes bloc {

@@ -1,6 +1,6 @@
- body{
-     margin: 0;
- }
+body{
+    margin: 0;
+}
  .align-text{
      display: flex;
      justify-content: center;
@@ -10,8 +10,6 @@
 .header-logo{
     font-size: 1.1em;
     font-weight: 900;
-    margin: 11px;
-   
         width: 100%;
         display: flex;
         justify-content: center;
@@ -127,14 +125,20 @@ margin-bottom: 70px;
     margin-left: 20px;
     position: relative;
         .titre-text{
-    font-size: 1.1em;
-    font-weight: 900;
-    margin: 11px;
-    width: 72px;
-    height: 27px;
-    position: absolute;
-    top: 8px;
-    right: 16px;
+            width: 80px;
+            height: 30px;
+            background: #99E2D0;
+            border-radius: 0.5vw;
+            position: absolute;
+            right: 1vw;
+            top: 1vw;
+            font-weight: 700;
+            color: #278870;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8em;
     }
     }
     
@@ -165,15 +169,25 @@ margin-bottom: 70px;
     .icon-coeur{
         
         &:hover{
-            animation-duration: 5s;
-            animation-delay: 5s;
+            
+    transition: all 1s;
         color: #9356DC ;
         font-weight: 900;
+
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
 .bloc-footer{
-    margin-top: 50px;
     background: #2c2c2c;
       .footer-media{
         display: flex;
@@ -187,8 +201,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 .icon-footer{
-    margin: 10px;
+    margin: 7px;
     color: #ffffff;
+    font-size: 0.8em;
 }
 }
 .bloc-text-footer{
@@ -197,26 +212,29 @@ align-items: center;
     
     .text-footer{
         color: #ffffff;
-        
+        margin: 4px;
     }
 }
     }
     .bloc-text-footer{
         .text-footer{
             color: #ffffff;
+            margin: 5px;
             
         }
     }
     
     
     
-    .titre-footer{
-        color: #ffffff;
-        font-size: 2em;
-        font-family: 'Shrikhand';
-    font-style: normal;
-    font-weight: 400;
-    }
+    .bloc-text-footer{
+        .titre-footer {
+            margin: 10px;
+            color: #ffffff;
+            font-size: 1.1em;
+            
+        
+        }
+        }
     
     
     } 

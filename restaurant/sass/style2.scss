@@ -4,6 +4,9 @@ h3{
    
    
 }
+body{
+    margin: 0;
+}
 
 a{
     text-decoration: none;
@@ -55,10 +58,10 @@ p{
 }
 .color-header{
     color: rgb(0, 0, 0);
-    text-shadow: 1px 3px 4px #505050;
+    
     font-size: 1em;
     &:hover {
-        font-size: 1.5em;
+       
             color: #9356DC;
     }
     }
@@ -97,25 +100,33 @@ img{
     }
     
     .icon-container{
-        
+        font-size: 1.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .icon-coeur{
-            font-size: 1.3em;
-            text-shadow: 0px 3px 4px #000000;
+            
+            transform: scale(1);
             &:hover{
-                font-size: 1.5em;
-                transition: 1000ms;
-               font-weight: 900;
-               color: #9356DC ;
-               text-shadow: 1px 3px 4px #9356DC;
+                transition:transform 0.5s ease-in-out;
+                transform: scale(0);
+            }  
+        }
+        .icon-coeur-plein{
+            position: absolute;
+            transform: scale(0);
+            &:hover{
+                transition:transform 0.5s ease-in-out;
+                transform: scale(1);
             }
+
         }
     }
 }
 .titre{
-    width: 100%;
+    width: 90%;
     
-    font-style: normal;
-    font-weight: 400;
+    
 .titre-gras{
     width: 50px;
     font-size: 1.5em;
@@ -123,7 +134,8 @@ img{
     display: flex;
     justify-content: flex-start;
      border-bottom: solid #99E2D0;
-   font-family: 'Shrikhand';
+     font-family: 'Roboto', sans-serif;
+     
 }
 }
 .bloc-bottom2{
@@ -157,7 +169,7 @@ img{
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 22px;
     .section-text-footer{
 display: flex;
 .bloc-icon-footer{
@@ -165,8 +177,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 .icon-footer{
-    margin: 10px;
+    margin: 7px;
     color: #ffffff;
+    font-size: 0.8em;
 }
 }
 .bloc-text-footer{
@@ -175,7 +188,7 @@ align-items: center;
     
     .text-footer{
         color: #ffffff;
-        margin: 9px;
+        margin: 4px;
         
     }
 }
@@ -184,7 +197,7 @@ align-items: center;
 
         .text-footer {
             color: #ffffff;
-            
+            margin: 5px;
         }
     }
     
@@ -193,7 +206,7 @@ align-items: center;
     .titre-footer {
         margin: 10px;
         color: #ffffff;
-        font-size: 1.8em;
+        font-size: 1.1em;
         
     
     }
