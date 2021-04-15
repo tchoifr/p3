@@ -491,7 +491,7 @@ body {
   align-items: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  z-index: 1;
+  z-index: 3;
   position: fixed;
   animation: loader 2s ease-in;
   transform: scale(0);
