@@ -1,37 +1,54 @@
 @media screen and (min-width: 770px) and (max-width:2560px){
+    body{
+        background: #f6f6f6;
+    }
     #destok{
-    display: flex;
+        display: flex;
+        flex-wrap: wrap;
     .destok__bloc{
         width: 100%;
 margin-left: 20px;
 margin-right: 20px;
+display: flex;
 .container1  {
     width: 100%;
+    &__localisation{
+        background: #f6f6f6;
+        box-shadow: none;
+    }
 }
 #container2{
-    width:100%;
-    margin-top: 190px;
+    width:80%;
+  
 }
 }
+}
+.responsive-img{
+    display: flex;
+    width: 95%;
 }
 .container3{
-    width: 70%;
-    margin-left: 20px;
-    margin-right: 20px;
-    background: rgb(243, 243, 243);
-}
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: inherit;
+    justify-content: center;
+
+       
+        .image-bloc {
+        width: 22%;
+        margin: 10px;
+         }
+         }
+        .titre-bloc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+        }
 .localisation{
     border-radius: 20px
 }
-.titre-bloc{
-    background: #dfdfdf;
-    height: 38px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    border-radius: 20px;
-    margin-bottom: 10px;
-}
+
 .bloc-footer{
     display: flex;
     justify-content: center;
@@ -59,7 +76,7 @@ margin-right: 20px;
 
 
 }
-@media screen and (min-width: 750px) and (max-width:770px){
+@media screen and (min-width: 430px) and (max-width:770px){
 
     .container3{
     display: flex;
