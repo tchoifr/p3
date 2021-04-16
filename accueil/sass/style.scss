@@ -190,8 +190,10 @@ margin-bottom: 70px;
   }
   .icon-coeur:hover + .yes-icon {
     opacity: 1;
+    transform: scale(1);
   }
   .yes-icon {
+      transform: scale(0);
     opacity: 0;
     color: transparent;
     background: linear-gradient(#9356DC, #FF79DA);
