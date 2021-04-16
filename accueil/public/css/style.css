@@ -259,7 +259,7 @@ body {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   height: 150px;
-  object-fit: fill;
+  object-fit: cover;
 }
 .container3 .text-image-bloc {
   display: flex;
