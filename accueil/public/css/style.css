@@ -215,7 +215,6 @@ body {
 }
 #container2 .fonctionnement .text-fonctionnement {
   margin-left: 40px;
-  margin-top: 15px;
 }
 
 .container3 {
@@ -345,13 +344,13 @@ body {
   font-size: 1.1em;
 }
 
-@media screen and (min-width: 1445px) and (max-width: 2570px) {
-  img {
-    object-fit: cover;
+@media screen and (min-width: 2560px) {
+  h2 {
+    font-size: 2.5em;
   }
 
   .header-logo {
-    font-size: 2em;
+    font-size: 2.7em;
     font-weight: 900;
     width: 100%;
     display: flex;
@@ -367,7 +366,161 @@ body {
   }
 
   .titre-bloc {
-    font-size: 3em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    box-shadow: inset 0px 7px 4px -8px;
+    font-size: 2em;
+  }
+  .container1__localisation {
+    background: #f5f5f5;
+    width: 50%;
+    font-size: 1.3em;
+    height: 65px;
+    margin-top: 60px;
+    box-shadow: inset 0px 0px 0px 0px;
+  }
+  .container1 .button {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-bottom: 70px;
+  }
+  .container1 .button .bouton {
+    height: 72px;
+    width: 450px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px #848383;
+    transition: transform 400ms;
+    border: 0;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+
+  #container2 {
+    width: 50%;
+    height: 484px;
+    background: #f5f5f5;
+    box-shadow: inset 0px 7px 4px -8px;
+    margin-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #container2 .fonctionnement {
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    height: 86px;
+    border-radius: 15px;
+    box-shadow: 1px 6px 7px 0px #dddddd;
+    margin-bottom: 20px;
+    font-weight: 900;
+    justify-content: center;
+  }
+  #container2 .fonctionnement .chiffre {
+    position: relative;
+    left: -11.5vw;
+    font-size: 1.5em;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+  }
+  #container2 .fonctionnement .icon {
+    font-size: 1.8em;
+    position: absolute;
+    left: 63vw;
+  }
+  #container2 .fonctionnement .text-fonctionnement {
+    font-size: 1.8em;
+    margin-left: 0px;
+  }
+
+  .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: white;
+  }
+  .container3 .titre-bloc {
+    font-size: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container3 .image-bloc {
+    width: 22%;
+    margin-bottom: 20px;
+    position: relative;
+    margin: 20px;
+  }
+  .container3 .image {
+    object-fit: cover;
+  }
+
+  .bloc-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0;
+    font-size: 1.5em;
+  }
+  .bloc-footer .footer-media {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+  }
+  .bloc-footer .footer-media .logo-footer {
+    width: 100px;
+    color: white;
+    height: 33px;
+    margin: 10px;
+  }
+  .bloc-footer .footer-media .logo-footer .logo-media {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1445px) and (max-width: 2559px) {
+  img {
+    object-fit: cover;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .header-logo {
+    font-size: 2.7em;
+    font-weight: 900;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    align-items: center;
+  }
+
+  .destok__bloc {
+    display: flex;
+    align-items: end;
+    background: #f5f5f5;
+  }
+
+  .titre-bloc {
     display: flex;
     justify-content: center;
   }
@@ -421,7 +574,7 @@ body {
   #container2 .fonctionnement {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 760px;
     height: 86px;
     border-radius: 15px;
     box-shadow: 1px 6px 7px 0px #dddddd;
@@ -431,7 +584,7 @@ body {
   }
   #container2 .fonctionnement .chiffre {
     position: relative;
-    left: -142px;
+    left: -11vw;
     font-size: 1.5em;
     height: 30px;
     width: 30px;
@@ -439,10 +592,12 @@ body {
   }
   #container2 .fonctionnement .icon {
     font-size: 1.8em;
+    position: absolute;
+    left: 61vw;
   }
   #container2 .fonctionnement .text-fonctionnement {
-    margin-left: 130px;
     font-size: 1.8em;
+    margin-left: 0px;
   }
 
   .container3 {
@@ -454,7 +609,7 @@ body {
     background: white;
   }
   .container3 .titre-bloc {
-    font-size: 3em;
+    font-size: 2em;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -550,7 +705,7 @@ body {
   #destok .destok__bloc #container2 .fonctionnement {
     display: flex;
     align-items: center;
-    width: 95%;
+    width: 47vw;
     height: 70px;
     border-radius: 15px;
     box-shadow: 1px 6px 7px 0px #dddddd;
@@ -560,15 +715,16 @@ body {
   }
   #destok .destok__bloc #container2 .fonctionnement .chiffre {
     position: relative;
-    left: -208px;
+    left: -15.3vw;
   }
   #destok .destok__bloc #container2 .fonctionnement .icon {
     font-size: 1.5em;
     position: absolute;
-    right: 575px;
+    right: 40vw;
   }
   #destok .destok__bloc #container2 .fonctionnement .text-fonctionnement {
     font-size: 1.3em;
+    margin-left: 0px;
   }
 
   .responsive-img {
@@ -625,10 +781,13 @@ body {
     width: 100%;
   }
 }
-@media screen and (min-width: 430px) and (max-width: 1025px) {
+@media screen and (min-width: 772px) and (max-width: 1025px) {
   #container2 {
-    width: 90%;
-    margin-left: 36px;
+    width: 94%;
+    margin-left: 3vw;
+  }
+  #container2 .fonctionnement .text-fonctionnement {
+    margin-left: 0px;
   }
 
   .container3 {
@@ -656,18 +815,65 @@ body {
   }
   .fonctionnement .chiffre {
     position: absolute;
-    left: 13px;
+    left: 7px;
   }
 
   .icon {
     position: absolute;
-    left: 150px;
+    left: 21vw;
+  }
+}
+@media screen and (min-width: 430px) and (max-width: 771px) {
+  #container2 {
+    width: 94%;
+    margin-left: 3vw;
+  }
+  #container2 .fonctionnement .text-fonctionnement {
+    margin-left: 0px;
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: inherit;
+    justify-content: center;
+  }
+  .container3 .image-bloc {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .titre-bloc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fonctionnement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fonctionnement .chiffre {
+    position: absolute;
+    left: 0px;
+  }
+
+  .icon {
+    position: absolute;
+    left: 21vw;
   }
 }
 @media screen and (max-width: 429px) {
   .chiffre {
     position: absolute;
-    left: -1px;
+    left: -4px;
+  }
+
+  .icon {
+    position: absolute;
+    left: 18vw;
   }
 }
 @keyframes loader {
