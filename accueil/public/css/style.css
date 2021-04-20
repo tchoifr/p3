@@ -344,7 +344,7 @@ body {
   font-size: 1.1em;
 }
 
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: 2559px) {
   h2 {
     font-size: 2.5em;
   }
@@ -427,11 +427,11 @@ body {
     box-shadow: 1px 6px 7px 0px #dddddd;
     margin-bottom: 20px;
     font-weight: 900;
-    justify-content: center;
+    justify-content: end;
   }
   #container2 .fonctionnement .chiffre {
     position: relative;
-    left: -11.5vw;
+    left: -0.5vw;
     font-size: 1.5em;
     height: 30px;
     width: 30px;
@@ -445,6 +445,8 @@ body {
   #container2 .fonctionnement .text-fonctionnement {
     font-size: 1.8em;
     margin-left: 0px;
+    position: relative;
+    left: 11vw;
   }
 
   .container3 {
@@ -495,7 +497,7 @@ body {
     width: 100%;
   }
 }
-@media screen and (min-width: 1445px) and (max-width: 2559px) {
+@media screen and (min-width: 1445px) and (max-width: 2558px) {
   img {
     object-fit: cover;
   }
@@ -580,11 +582,11 @@ body {
     box-shadow: 1px 6px 7px 0px #dddddd;
     margin-bottom: 20px;
     font-weight: 900;
-    justify-content: center;
+    justify-content: end;
   }
   #container2 .fonctionnement .chiffre {
     position: relative;
-    left: -11vw;
+    left: -0.9vw;
     font-size: 1.5em;
     height: 30px;
     width: 30px;
@@ -598,6 +600,8 @@ body {
   #container2 .fonctionnement .text-fonctionnement {
     font-size: 1.8em;
     margin-left: 0px;
+    left: 10vw;
+    position: relative;
   }
 
   .container3 {
@@ -711,11 +715,11 @@ body {
     box-shadow: 1px 6px 7px 0px #dddddd;
     margin-bottom: 20px;
     font-weight: 900;
-    justify-content: center;
+    justify-content: end;
   }
   #destok .destok__bloc #container2 .fonctionnement .chiffre {
     position: relative;
-    left: -15.3vw;
+    left: -1.5vw;
   }
   #destok .destok__bloc #container2 .fonctionnement .icon {
     font-size: 1.5em;
@@ -725,6 +729,8 @@ body {
   #destok .destok__bloc #container2 .fonctionnement .text-fonctionnement {
     font-size: 1.3em;
     margin-left: 0px;
+    position: relative;
+    left: 13vw;
   }
 
   .responsive-img {

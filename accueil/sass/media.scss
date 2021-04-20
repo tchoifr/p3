@@ -1,4 +1,4 @@
-@media screen and (min-width: 2560px){
+@media screen and (min-width: 2559px){
     h2{
         font-size: 2.5em;
     }
@@ -80,12 +80,12 @@ width: 450px;
             box-shadow: 1px 6px 7px 0px #dddddd;
             margin-bottom: 20px;
             font-weight: 900;
-            justify-content: center;
+            justify-content: end;
             
             
             .chiffre{
                 position: relative;
-                left:-11.5vw;;
+                left:-0.5vw;;
                 font-size: 1.5em;
                 height: 30px;
                 width: 30px;
@@ -99,6 +99,8 @@ width: 450px;
                     .text-fonctionnement{
                         font-size: 1.8em;
                         margin-left: 0px;
+                        position: relative;
+                        left: 11vw;
                     }
          }
         }
@@ -152,7 +154,7 @@ width: 450px;
     }
         }
          }
-@media screen and (min-width: 1445px) and (max-width:2559px) {
+@media screen and (min-width: 1445px) and (max-width:2558px) {
     img{
         object-fit: cover;
     }
@@ -234,12 +236,12 @@ width: 450px;
             box-shadow: 1px 6px 7px 0px #dddddd;
             margin-bottom: 20px;
             font-weight: 900;
-            justify-content: center;
+            justify-content: end;
             
             
             .chiffre{
                 position: relative;
-                left: -11vw;
+                left: -0.9vw;
                 font-size: 1.5em;
                 height: 30px;
                 width: 30px;
@@ -253,6 +255,8 @@ width: 450px;
                     .text-fonctionnement{
                         font-size: 1.8em;
                         margin-left: 0px;
+                        left: 10vw;
+                        position: relative;
                     }
          }
         }
@@ -369,10 +373,10 @@ background: #f5f5f5;
     box-shadow: 1px 6px 7px 0px #dddddd;
     margin-bottom: 20px;
     font-weight: 900;
-    justify-content: center;
+    justify-content: end;
         .chiffre{
             position: relative;
-            left: -15.3vw;
+            left: -1.5vw;
         }
         .icon{
             font-size: 1.5em;
@@ -382,6 +386,8 @@ background: #f5f5f5;
         .text-fonctionnement{
             font-size: 1.3em;
             margin-left: 0px;
+            position: relative;
+            left: 13vw;
         }
     }
   
