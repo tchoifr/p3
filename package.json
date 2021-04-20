@@ -1,0 +1,19 @@
+{
+  "name": "p3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./sass/main.scss:./public/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchoifr/FrancoisGiorgi_3_01032021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tchoifr/FrancoisGiorgi_3_01032021/issues"
+  },
+  "homepage": "https://github.com/tchoifr/FrancoisGiorgi_3_01032021#readme"
+}
