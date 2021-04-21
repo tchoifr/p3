@@ -421,7 +421,6 @@ body {
   box-shadow: 1px 6px 7px 0px #dddddd;
   margin-bottom: 20px;
   font-weight: 900;
-  justify-content: center;
 }
 #container2 .fonctionnement:hover > .icon {
   color: #9356DC;
@@ -815,7 +814,6 @@ body {
     box-shadow: 1px 6px 7px 0px #dddddd;
     margin-bottom: 20px;
     font-weight: 900;
-    justify-content: end;
   }
   #container2 .fonctionnement .chiffre {
     position: relative;
@@ -948,7 +946,6 @@ body {
     box-shadow: 1px 6px 7px 0px #dddddd;
     margin-bottom: 20px;
     font-weight: 900;
-    justify-content: end;
   }
   #destok .destok__bloc #container2 .fonctionnement .chiffre {
     position: relative;
@@ -1113,6 +1110,11 @@ body {
   .icon {
     position: absolute;
     left: 18vw;
+  }
+
+  #container2 .fonctionnement {
+    display: flex;
+    justify-content: center;
   }
 }
 
